@@ -27,7 +27,6 @@ menu = st.sidebar.selectbox(
 # Home Page
 if menu == 'Home':
     st.header("Welcome to the Car Price Prediction App!")
-    st.image("C:\xampp\htdocs\Praktikum SC\deploy\Car Logo.jpg", width=300)
     st.write(
         """
         This app allows you to predict the price of a car based on features like:
